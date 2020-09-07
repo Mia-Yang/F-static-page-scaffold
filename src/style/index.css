@@ -1,20 +1,90 @@
-body,
-html {
-  margin: 0;
-  padding: 0;
-}
-
 body {
-  font-family: "Open Sans", sans-serif;
-  font-size: 16px;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-ul {
-  list-style: none;
+	font-family: "Fix for Mac Chrome 80", system-ui, -apple-system,
+		BlinkMacSystemFont, ".SFNSText-Regular", sans-serif;
+  background-color: #e9ebee;
   margin: 0;
-  padding: 0;
+}
+
+header {
+	background-color: #3b5998;
+  color: white;
+  height: 82px;
+  width: 100%;
+}
+
+.header-content {
+  width: 980px;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.left {
+  display: flex;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-top: 25px;
+}
+
+.register-button {
+  margin-top: 36px;
+  margin-left: 10px;
+  background-color: #42b72a;
+  outline: none;
+  border: none;
+  color: white;
+  height: 30px;
+  width: 50px;
+  border-radius: 3px;
+}
+
+.join-facebook {
+  background: transparent;
+  outline: none;
+  border: none;
+  color: white;
+  height: 82px;
+}
+
+.content {
+  width: 980px;
+  margin: auto;
+}
+.select {
+  display: flex;
+  margin-top: 50px;
+}
+.block {
+  float: left;
+  width: 420px;
+  height: 420px;
+  border:1px lightgray solid;
+  border-radius: 10px;
+  background-color: white;
+  align-content: center;
+  padding: 25px;
+  text-align: center;
+}
+
+.block:first-child {
+  margin-right: 40px;
+}
+
+.block p {
+  color: gray;
+}
+
+.block button {
+  margin-top: 60px;
+}
+
+.block button {
+  border:lightgray solid 1px;
+  border-radius: 3px;
+}
+
+button:hover {
+  cursor: pointer;
 }
